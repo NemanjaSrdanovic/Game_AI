@@ -21,7 +21,37 @@ from the game idea (documentation) provided. As well as recognizing and document
 the first drafts of our future implementations (client and server) and use cases must be modeled as class diagrams and sequence diagrams.
 
 
-Sub-task 2 - Implementation of the client (TODO) <<-----------
+Sub-task 2 - Implementation of the client: Based on the feedback received for subtask 1, the client model and its use cases are revised again. 
+The client is programmed using these models and best practices.
+
+The client is developed as follows:
+
+		• Network communication: The client must be able to communicate with the network interface specified by the course management. 
+		    			 This creates a common basis so that two different clients, e.g. in a tournament, can play against each 
+					 other. The server serves as a middleman and ensures compliance with the rules of the game. REST and the 
+					 WebClient integrated in Spring are used for this.
+
+		• User interface: Visualize the course of the game, i.e. all information available about the game card, which, for example, has been 
+				  transmitted by the server (e.g. terrain types and treasure or castle positions) using the MVC pattern.It must also 
+				  be clear where on the map the characters of both AIs are currently located in order to visualize their movements.
+
+		• Map generation: Implementing an algorithm that generates the half of the map required during the start of the game for the given card 
+				   size while paying attention to the rules and restrictions defined in the game idea. 
+
+		• Artificial intelligence: Develop an artificial intelligence that, based on the current state of the game, calculates the next 
+					   suitable actions (like movements of the game character).
+
+During the development following quality features are taken into consideration: 
+
+		• Logging: Log the behavior of the implementation to a sufficient extent. This includes the occurrence of errors, important states such as 
+			   the start of a new game, the background to why a player's behavior was recognized as a rule violation, etc.
+
+		• Error handling: Identifyint places where self-defined exceptions can be used. Apply best practices and create individual exception classes.
+
+		• Unit Tests: Create an appropriate number of unit tests (data-driven tests, negative tests and tests that implements mocking via Mockito). 
+			      A test coverage of at least 60% must be achieved
+
+
 
 Game description:
 
