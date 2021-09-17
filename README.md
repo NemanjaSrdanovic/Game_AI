@@ -1,18 +1,25 @@
 # Game_AI_Universitaet_Wien
 
 
-The aim of the project is to offer central concepts of software development like:
-• Requirements analysis,
-• Verification, validation of software,
-• Software projects,
-• Software development processes,
-• Security in software development,
-• Maintenance, further development, rollout
-• Etc.
+The aim of the project is to offer central concepts of software development like:<br/>
+• Requirements analysis,<br/>
+• Verification, validation of software,<br/>
+• Software projects,<br/>
+• Software development processes,<br/>
+• Security in software development,<br/>
+• Maintenance, further development, rollout<br/>
+• Etc.<br/>
 
 
 These goals are achieved by developing a software project in the form of a interactive game. The developer is provided with documentation in the form of 
 a game idea and the network protocol which is to be used for communication between server and client.
+
+
+**Game description**:
+
+The basic idea of the game is that two AIs on the same map have to perform a similar task. The AI that fulfills this faster wins the game which
+is turn-based (therefore each AI takes turns taking a game action). The map on which the game is played is not fixed, but is created by both AIs
+independently and automatically at the start of the game (one half of the map each).
 
 The implementation of the project is carried out in three subtasks / deadlines:
 
@@ -44,6 +51,8 @@ The client is developed as follows:
 	• Artificial intelligence: Develop an artificial intelligence that, based on the current state of the game,
 			  calculates the next suitable actions (like movements of the game character).
 
+
+
 During the development following quality features are taken into consideration:
 
 	• Logging: Log the behavior of the implementation to a sufficient extent. This includes the occurrence of
@@ -58,11 +67,6 @@ During the development following quality features are taken into consideration:
 
 
 
-**Game description**:
-
-The basic idea of the game is that two AIs on the same map have to perform a similar task. The AI that fulfills this faster wins the game which
-is turn-based (therefore each AI takes turns taking a game action). The map on which the game is played is not fixed, but is created by both AIs
-independently and automatically at the start of the game (one half of the map each).
 
 
 **Programming languages used**: Java <br/>
