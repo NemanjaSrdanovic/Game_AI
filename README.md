@@ -1,6 +1,6 @@
 # Game_AI_Universitaet_Wien
 
-```
+
 ### Project description
 
 
@@ -24,9 +24,7 @@ The basic idea of the game is that two AIs on the same map have to perform a sim
 is turn-based (therefore each AI takes turns taking a game action). The map on which the game is played is not fixed, but is created by both AIs
 independently and automatically at the start of the game (one half of the map each).
 
-```
 
-```
 
 ### Project implemetation
 
@@ -107,8 +105,7 @@ The server is developed as follows:
 			clients. It should also be possible to fulfill the goals described in the game idea in 
 			order to win a game in the correct way (moving, collecting treasure, visibility, etc.).
 
-```
-```
+
 ### Project technology
 
 
