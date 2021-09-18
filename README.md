@@ -61,6 +61,7 @@ in Spring are used for this.
 </p>
 </details>
 
+
 <details>
 <summary>User interface</summary>
 <p>
@@ -71,14 +72,24 @@ characters of both AIs are currently located in order to visualize their movemen
 </p>
 </details>
 
-	• : 
 
-	• Map generation: Implementing an algorithm that generates the half of the map required during the start of
-			  the game for the given card size while paying attention to the rules and restrictions
-			  defined in the game idea.
+<details>
+<summary>Map generation</summary>
+<p>
+Implementing an algorithm that generates the half of the map required during the start of
+the game for the given card size while paying attention to the rules and restrictions
+defined in the game idea.
+</p>
+</details>
+	
 
-	• Artificial intelligence: Develop an artificial intelligence that, based on the current state of the game,
-			  calculates the next suitable actions (like movements of the game character).
+<details>
+<summary>Artificial intelligence</summary>
+<p>
+Develop an artificial intelligence that, based on the current state of the game,
+calculates the next suitable actions (like movements of the game character).
+</p>
+</details>
 
 
 
