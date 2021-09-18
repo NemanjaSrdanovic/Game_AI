@@ -51,19 +51,27 @@ The client is programmed using these models the documentation  and best practice
 The client is developed as follows:
 
 <details>
+<summary>Network communication</summary>
+<p> 
+The client must be able to communicate with the network interface specified by the
+course management. This creates a common basis so that two different clients, e.g.
+in a tournament, can play against each other. The server serves as a middleman and
+ensures compliance with the rules of the game. REST and the WebClient integrated
+in Spring are used for this.
+</p>
+</details>
 
-<summary>	Network communication</summary>
-	 <p> The client must be able to communicate with the network interface specified by the
-			         course management. This creates a common basis so that two different clients, e.g.
-			         in a tournament, can play against each other. The server serves as a middleman and
-			         ensures compliance with the rules of the game. REST and the WebClient integrated
-			         in Spring are used for this.</p>
-  </details>
+<details>
+<summary>User interface</summary>
+<p>
+Visualize the course of the game, i.e. all information available about the game card, 
+which, for example, has been transmitted by the server (e.g. terrain types and treasure
+or castle positions) using the MVC pattern.It must also be clear where on the map the 
+characters of both AIs are currently located in order to visualize their movements.
+</p>
+</details>
 
-	• User interface: Visualize the course of the game, i.e. all information available about the game card, 
-			  which, for example, has been transmitted by the server (e.g. terrain types and treasure
-			  or castle positions) using the MVC pattern.It must also be clear where on the map the 
-			  characters of both AIs are currently located in order to visualize their movements.
+	• : 
 
 	• Map generation: Implementing an algorithm that generates the half of the map required during the start of
 			  the game for the given card size while paying attention to the rules and restrictions
