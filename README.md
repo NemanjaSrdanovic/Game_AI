@@ -48,7 +48,7 @@ the first drafts of our future implementations (client and server) and use cases
 Based on the feedback received for subtask 1, the client model and its use cases are revised again. 
 The client is programmed using these models the documentation  and best practices.
 
-The client is developed as follows:
+##### The client is developed as follows:
 
 <details>
 <summary>Network communication</summary>
@@ -93,17 +93,35 @@ calculates the next suitable actions (like movements of the game character).
 
 
 
-During the development following quality features are taken into consideration:
+##### During the development following quality features are taken into consideration:
 
-	• Logging: Log the behavior of the implementation to a sufficient extent. This includes the occurrence of
-		   errors, important states such as the start of a new game, the background to why a player's
-		   behavior was recognized as a rule violation, etc.
 
-	• Error handling: Identifyint places where self-defined exceptions can be used. Apply best practices and
-		          create individual exception classes.
+<details>
+<summary>Logging</summary>
+<p>
+Log the behavior of the implementation to a sufficient extent. This includes the occurrence of
+errors, important states such as the start of a new game, the background to why a player's
+behavior was recognized as a rule violation, etc.
+</p>
+</details>
 
-	• Unit Tests: Create an appropriate number of unit tests (data-driven tests, negative tests and tests that
- 		      implements mocking via Mockito). A test coverage of at least 60% must be achieved
+
+<details>
+<summary>Error handling</summary>
+<p>
+Identifyint places where self-defined exceptions can be used. Apply best practices and
+create individual exception classes.
+</p>
+</details>
+
+
+<details>
+<summary>Unit Tests</summary>
+<p>
+Create an appropriate number of unit tests (data-driven tests, negative tests and tests that
+implements mocking via Mockito). A test coverage of at least 60% must be achieved
+</p>
+</details>
 
 
 #### Sub-task 3 - Implementation of the server 
@@ -112,7 +130,7 @@ During the development following quality features are taken into consideration:
 Based on the feedback received for subtask 1, the server model and its use cases are revised again. 
 The server is programmed using these models the documentation and best practices.
 
-The server is developed as follows:
+##### The server is developed as follows:
 
 	• Network communication: The server must be able to communicate with the client implemented in 
 				 subtask 2 and the test client provided by the course via the specified network
