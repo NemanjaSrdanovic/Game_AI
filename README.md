@@ -1,7 +1,7 @@
 # Game_AI_Universitaet_Wien
 
 
-### Project description
+## Project description
 
 
 The aim of the project is to offer central concepts of software development like:<br/>
@@ -26,14 +26,14 @@ independently and automatically at the start of the game (one half of the map ea
 
 
 
-### Project implemetation
+## Project implemetation
 
 
 The implementation of the project is carried out in three subtasks / deadlines:
 
 
 
-#### Sub-task 1 - Analysis & Design 
+### Sub-task 1 - Analysis & Design 
 
 
 The aim of this sub-task is to define functional and non-functional requirements 
@@ -42,13 +42,13 @@ the first drafts of our future implementations (client and server) and use cases
 
 
 
-#### Sub-task 2 - Implementation of the client 
+### Sub-task 2 - Implementation of the client 
 
 
 Based on the feedback received for subtask 1, the client model and its use cases are revised again. 
 The client is programmed using these models the documentation  and best practices.
 
-##### The client is developed as follows:
+#### The client is developed as follows:
 
 <details>
 <summary>Network communication</summary>
@@ -93,7 +93,7 @@ calculates the next suitable actions (like movements of the game character).
 
 
 
-##### During the development following quality features are taken into consideration:
+#### During the development following quality features are taken into consideration:
 
 
 <details>
@@ -124,13 +124,13 @@ implements mocking via Mockito). A test coverage of at least 60% must be achieve
 </details>
 
 
-#### Sub-task 3 - Implementation of the server 
+### Sub-task 3 - Implementation of the server 
 
 
 Based on the feedback received for subtask 1, the server model and its use cases are revised again. 
 The server is programmed using these models the documentation and best practices.
 
-##### The server is developed as follows:
+#### The server is developed as follows:
 
 	• Network communication: The server must be able to communicate with the client implemented in 
 				 subtask 2 and the test client provided by the course via the specified network
@@ -147,7 +147,7 @@ The server is programmed using these models the documentation and best practices
 			order to win a game in the correct way (moving, collecting treasure, visibility, etc.).
 
 
-### Project technology
+## Project technology
 
 
 **Programming languages used**: Java <br/>
