@@ -52,7 +52,7 @@ The client is developed as follows:
 
 <details>
 
-&nbsp;&nbsp;&nbsp;<summary>Network communication</summary>
+<summary>	Network communication</summary>
 	 <p> The client must be able to communicate with the network interface specified by the
 			         course management. This creates a common basis so that two different clients, e.g.
 			         in a tournament, can play against each other. The server serves as a middleman and
