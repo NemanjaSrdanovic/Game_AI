@@ -23,13 +23,19 @@ independently and automatically at the start of the game (one half of the map ea
 
 The implementation of the project is carried out in three subtasks / deadlines:
 
-**Sub-task 1** - Analysis & Design: The aim of this sub-task is to define functional and non-functional requirements 
+######Sub-task 1 - Analysis & Design 
+
+
+The aim of this sub-task is to define functional and non-functional requirements 
 from the game idea (documentation) provided. As well as recognizing and documenting relevant use cases. In addition, 
 the first drafts of our future implementations (client and server) and use cases must be modeled as class diagrams and sequence diagrams.
 
 
-**Sub-task 2** - Implementation of the client: Based on the feedback received for subtask 1, the client model and its use cases are revised again. 
-The client is programmed using these models and best practices.
+###### Sub-task 2 - Implementation of the client 
+
+
+Based on the feedback received for subtask 1, the client model and its use cases are revised again. 
+The client is programmed using these models the documentation  and best practices.
 
 The client is developed as follows:
 
@@ -66,12 +72,32 @@ During the development following quality features are taken into consideration:
  		      implements mocking via Mockito). A test coverage of at least 60% must be achieved
 
 
+######Sub-task 3 - Implementation of the server 
 
+
+Based on the feedback received for subtask 1, the server model and its use cases are revised again. 
+The server is programmed using these models the documentation and best practices.
+
+The server is developed as follows:
+
+	• Network communication: The server must be able to communicate with the client implemented in 
+				 subtask 2 and the test client provided by the course via the specified network
+				 interfaces(see network protocol). This means that the messages from the clients 
+				 should be accepted, processed and answered by the server. 
+
+
+	• Review business rules: Implement the necessary logic to check at least eight of the business rules 
+				 described in the game idea and relevant for the first four endpoints.
+
+
+	• Move & rules: This includes accepting, processing and answering the incoming movement requests of the
+			clients. It should also be possible to fulfill the goals described in the game idea in 
+			order to win a game in the correct way (moving, collecting treasure, visibility, etc.).
 
 
 **Programming languages used**: Java <br/>
 **Framework**: Spring Boot <br/>
 **Securing the source code**: GIT  <br/>
-**Build tool**:Gradle  <br/>
+**Build tool**: Gradle  <br/>
 **Modeling Platform**: Visual Paradigm <br/>
 **Programming interface**: RESTful API <br/>
