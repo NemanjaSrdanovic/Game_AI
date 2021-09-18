@@ -18,7 +18,7 @@ These goals are achieved by developing a software project in the form of a inter
 a game idea and the network protocol which is to be used for communication between server and client.
 
 
-**Game description**:
+#### Game description:
 
 The basic idea of the game is that two AIs on the same map have to perform a similar task. The AI that fulfills this faster wins the game which
 is turn-based (therefore each AI takes turns taking a game action). The map on which the game is played is not fixed, but is created by both AIs
@@ -132,19 +132,36 @@ The server is programmed using these models the documentation and best practices
 
 #### The server is developed as follows:
 
-	• Network communication: The server must be able to communicate with the client implemented in 
-				 subtask 2 and the test client provided by the course via the specified network
-				 interfaces(see network protocol). This means that the messages from the clients 
-				 should be accepted, processed and answered by the server. 
 
 
-	• Review business rules: Implement the necessary logic to check at least eight of the business rules 
-				 described in the game idea and relevant for the first four endpoints.
+<details>
+<summary>Network communication</summary>
+<p>
+The server must be able to communicate with the client implemented in 
+subtask 2 and the test client provided by the course via the specified network
+interfaces(see network protocol). This means that the messages from the clients 
+should be accepted, processed and answered by the server. 
+</p>
+</details>
+	
 
+<details>
+<summary>Review business rules</summary>
+<p>
+Implement the necessary logic to check at least eight of the business rules 
+described in the game idea and relevant for the first four endpoints.
+</p>
+</details>
 
-	• Move & rules: This includes accepting, processing and answering the incoming movement requests of the
-			clients. It should also be possible to fulfill the goals described in the game idea in 
-			order to win a game in the correct way (moving, collecting treasure, visibility, etc.).
+	
+<details>
+<summary>Move & rules</summary>
+<p>
+This includes accepting, processing and answering the incoming movement requests of the
+clients. It should also be possible to fulfill the goals described in the game idea in 
+order to win a game in the correct way (moving, collecting treasure, visibility, etc.).
+</p>
+</details>
 
 
 ## Project technology
@@ -156,4 +173,3 @@ The server is programmed using these models the documentation and best practices
 **Build tool**: Gradle  <br/>
 **Modeling Platform**: Visual Paradigm <br/>
 **Programming interface**: RESTful API <br/>
-```
