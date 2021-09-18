@@ -1,6 +1,6 @@
 # Game_AI_Universitaet_Wien
 
-
+```
 ### Project description
 
 
@@ -24,19 +24,17 @@ The basic idea of the game is that two AIs on the same map have to perform a sim
 is turn-based (therefore each AI takes turns taking a game action). The map on which the game is played is not fixed, but is created by both AIs
 independently and automatically at the start of the game (one half of the map each).
 
+```
 
-<br/>
-<br/>
-<br/>
+```
+
 ### Project implemetation
 
 
 The implementation of the project is carried out in three subtasks / deadlines:
 
 
-<br/>
-<br/>
-<br/>
+
 #### Sub-task 1 - Analysis & Design 
 
 
@@ -45,9 +43,7 @@ from the game idea (documentation) provided. As well as recognizing and document
 the first drafts of our future implementations (client and server) and use cases must be modeled as class diagrams and sequence diagrams.
 
 
-<br/>
-<br/>
-<br/>
+
 #### Sub-task 2 - Implementation of the client 
 
 
@@ -88,9 +84,7 @@ During the development following quality features are taken into consideration:
 	• Unit Tests: Create an appropriate number of unit tests (data-driven tests, negative tests and tests that
  		      implements mocking via Mockito). A test coverage of at least 60% must be achieved
 
-<br/>
-<br/>
-<br/>
+
 #### Sub-task 3 - Implementation of the server 
 
 
@@ -113,10 +107,8 @@ The server is developed as follows:
 			clients. It should also be possible to fulfill the goals described in the game idea in 
 			order to win a game in the correct way (moving, collecting treasure, visibility, etc.).
 
-
-<br/>
-<br/>
-<br/>
+```
+```
 ### Project technology
 
 
@@ -126,3 +118,4 @@ The server is developed as follows:
 **Build tool**: Gradle  <br/>
 **Modeling Platform**: Visual Paradigm <br/>
 **Programming interface**: RESTful API <br/>
+```
