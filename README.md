@@ -1,6 +1,9 @@
 # Game_AI_Universitaet_Wien
 
 
+### Project description
+
+
 The aim of the project is to offer central concepts of software development like:<br/>
 • Requirements analysis,<br/>
 • Verification, validation of software,<br/>
@@ -21,9 +24,13 @@ The basic idea of the game is that two AIs on the same map have to perform a sim
 is turn-based (therefore each AI takes turns taking a game action). The map on which the game is played is not fixed, but is created by both AIs
 independently and automatically at the start of the game (one half of the map each).
 
+
+### Project implemetation
+
+
 The implementation of the project is carried out in three subtasks / deadlines:
 
-######Sub-task 1 - Analysis & Design 
+#### Sub-task 1 - Analysis & Design 
 
 
 The aim of this sub-task is to define functional and non-functional requirements 
@@ -31,7 +38,7 @@ from the game idea (documentation) provided. As well as recognizing and document
 the first drafts of our future implementations (client and server) and use cases must be modeled as class diagrams and sequence diagrams.
 
 
-###### Sub-task 2 - Implementation of the client 
+#### Sub-task 2 - Implementation of the client 
 
 
 Based on the feedback received for subtask 1, the client model and its use cases are revised again. 
@@ -72,7 +79,7 @@ During the development following quality features are taken into consideration:
  		      implements mocking via Mockito). A test coverage of at least 60% must be achieved
 
 
-######Sub-task 3 - Implementation of the server 
+#### Sub-task 3 - Implementation of the server 
 
 
 Based on the feedback received for subtask 1, the server model and its use cases are revised again. 
@@ -93,6 +100,10 @@ The server is developed as follows:
 	• Move & rules: This includes accepting, processing and answering the incoming movement requests of the
 			clients. It should also be possible to fulfill the goals described in the game idea in 
 			order to win a game in the correct way (moving, collecting treasure, visibility, etc.).
+
+
+
+### Project technology
 
 
 **Programming languages used**: Java <br/>
