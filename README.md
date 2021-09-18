@@ -50,7 +50,7 @@ The client is programmed using these models the documentation  and best practice
 
 The client is developed as follows:
 
-<details>
+&nbsp;&nbsp;&nbsp;<details>
 
 <summary>Network communication</summary>
 	 <p> The client must be able to communicate with the network interface specified by the
